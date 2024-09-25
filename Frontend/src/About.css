@@ -1,0 +1,42 @@
+.about-page {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    padding: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-image-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ff4d4d;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  

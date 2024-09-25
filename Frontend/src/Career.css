@@ -1,0 +1,303 @@
+/* General Styles */
+
+
+a {
+    color: inherit; /* Ensures NavLinks inherit the text color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Hover effect for links */
+}
+
+.career {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 20px;
+    background-color: #1a1a1a; /* Main container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly more prominent shadow */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+
+    color: #cc0000; /* Bright red for headers */
+    margin: 0;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 18px;
+    color: #cccccc; /* Light grey for subtitle */
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #121212; /* Darker background for sidebar */
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #333; /* Border for sidebar */
+    border-radius: 4px;
+    background-color: #121212; /* Matches sidebar background */
+}
+
+.categories-list li {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    color: #e0e0e0; /* Light grey text */
+    background-color: #1a1a1a; /* Background for list items */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.categories-list li:hover {
+    background-color: #2a2a2a; /* Slightly lighter on hover */
+}
+
+.categories-list li.active {
+    background-color: #ff4500; /* Red background for active category */
+    color: #0d0d0d; /* Dark text on red background */
+}
+
+.categories-list li:last-child {
+    border-bottom: none;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-section {
+    margin-bottom: 20px;
+    background-color: #1a1a1a; /* Matches main content background */
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.search-fields {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #444; /* Dark border for inputs */
+    background-color: #222; /* Dark input background */
+    color: #fff;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #cc0000; /* Red button */
+    color: #0d0d0d; /* Dark text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color:#cc0000; /* Darker red on hover */
+}
+
+.open-jobs {
+    margin-bottom: 20px;
+}
+
+.open-jobs label {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.open-jobs input[type="checkbox"] {
+    margin-right: 8px;
+}
+.post-button{
+    background-color:#cc0000;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.post-opportunity {
+    text-align: right;
+}
+
+.post-opportunity-button {
+    padding: 10px 20px;
+    background-color: #ff4500; /* Red for post button */
+    color: #0d0d0d; /* Dark text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-opportunity-button:hover {
+    background-color:#cc0000; /* Darker red on hover */
+}
+
+.job-listings h3 {
+    font-size: 24px;
+    color: #ff4500; /* Header color */
+    margin-bottom: 20px;
+}
+
+.job-listings .job-item {
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #1a1a1a; /* Darker background for job items */
+    transition: background-color 0.3s ease;
+}
+
+.job-listings .job-item:hover {
+    background-color: #292929; /* Slightly lighter on hover */
+}
+
+.job-listings .job-title {
+    font-size: 20px;
+    color: #ff4500;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.job-listings .job-description {
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.job-listings .job-location,
+.job-listings .job-deadline {
+    font-size: 14px;
+    color: #888;
+    margin-right: 20px;
+}
+
+.job-listings .job-location {
+    margin-bottom: 5px;
+}
+
+/* Form Overlay */
+.form-overlay12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay for form */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 9999; */
+}
+
+.form-container12 {
+    background-color: #1a1a1a; /* Matches main content */
+    padding: 15px;
+    border-radius: 8px;
+    width: 600px;
+    max-width: 95%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.job-form12 h3 {
+    margin-bottom: 15px;
+    color: #ff4500;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+}
+
+.form-group12 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-group12 label {
+    display: block;
+    margin-bottom: 4px;
+    color: #e0e0e0; /* Light text */
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-group12 input,
+.form-group12 select,
+.form-group12 textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #2b2b2b; /* Dark input backgrounds */
+    color: #e0e0e0;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.form-group12 textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.button-group12 {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.submit-button,
+.cancel-button {
+    padding: 10px 20px;
+    background-color: #cc0000; /* Red buttons */
+    color: #0d0d0d; /* Dark text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.cancel-button {
+    background-color: #333; /* Darker for cancel button */
+}
+
+.submit-button:hover {
+    background-color:#cc0000; /* Darker red on hover */
+}
+
+.cancel-button:hover {
+    background-color: #555; /* Lighter hover effect */
+}

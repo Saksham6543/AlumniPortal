@@ -1,0 +1,122 @@
+
+  .login-header {
+    background-color: #e60012;
+    color: #fff; 
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .login-header img {
+    width: 4em;
+    height: auto;
+  }
+  
+  .login-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  
+  #services {
+    background-color: #e60012; 
+    padding: 1rem;
+  }
+  
+
+  .login-card {
+    background-color: #f5f5f5; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 2rem;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .login-card h2 {
+    color: #e60012; 
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .login-form-group label {
+    color: #e60012; 
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .login-form-control {
+    background-color: #ffffff; 
+    color: #333333; 
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .login-form-control:focus {
+    border-color: #e60012; 
+    outline: none;
+  }
+  
+  .login-form-link {
+    color: #e60012;
+    text-decoration: none;
+  }
+  
+  .login-form-link:hover {
+    text-decoration: underline; 
+  }
+  
+ 
+  .login-btn-primary {
+    background-color: #e60012;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; 
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn-primary:hover {
+    background-color: #c60010; 
+  }
+  
+  
+  .login-alert-primary {
+    background-color: #d7d1d1; 
+    color: #fff; 
+  }
+  
+  .login-alert-danger {
+    background-color: #c60010;
+    color: #fff; 
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .login-alert-success {
+    color: #28a745;
+  }
+  
+  .login-alert-success.admin-success {
+    color: black; 
+  }

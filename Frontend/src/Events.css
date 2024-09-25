@@ -1,0 +1,162 @@
+.platter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    background-color: #000;
+}
+
+.feast-container {
+    display: flex;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.starter-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #555;
+}
+
+.main-course-section {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search-bar .MuiTextField-root {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    background-color: #222;
+    color: #fff;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #f00;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar button:hover {
+    background-color: #d00000;
+}
+
+.menu-categories {
+    margin-bottom: 20px;
+}
+
+.menu-categories h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.menu-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #444;
+    border: none;
+    border-left: 5px solid transparent;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.3s, border-left-color 0.3s;
+}
+
+.menu-button span {
+    float: right;
+}
+
+.menu-button.active {
+    border-left-color: #f00;
+    background-color: #550000;
+}
+
+.menu-button:hover {
+    background-color: #666;
+}
+
+.main-course-section h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.main-course-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-course-section ul li {
+    padding: 10px;
+    background-color: #444;
+    margin-bottom: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.add-event-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-event-button:hover {
+    background-color: #666;
+}
+
+.add-event-button.active{
+    border-left-color: #f00;
+    background-color: #550000;
+}
+
+.save-event-button {
+    width: 20%;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    cursor:alias;
+    font-size: 14px; 
+    color: #fff;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.save-event-button:hover {
+    background-color: #666;
+}

@@ -1,0 +1,102 @@
+/* Main container */
+.container154 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; /* Full viewport height */
+    background-color: #000; /* Black background for dark theme */
+    padding-top: 0%; /* Adjust this value to move the division down */
+    box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+/* Main content area */
+.events-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; /* Adjust to fit your layout */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Left division for filters */
+.left-division {
+    width: 30%;
+    padding: 10px;
+    background-color: #333; /* Darker background for the filter section */
+    border-radius: 8px;
+}
+
+/* Search bar styling */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+/* Category buttons */
+.event-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-button {
+    background-color: #222; /* Dark background */
+    color: #ddd; /* Light text */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.category-button.active {
+    background-color: #444; /* Highlight active category */
+}
+
+/* Right division for displaying alumni */
+.right-division {
+    width: 65%;
+    padding: 10px;
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.right-division::-webkit-scrollbar {
+    display: none;
+}
+
+/* Alumni card styling */
+.alumni-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.alumni-card {
+    background-color: #444; /* Dark background */
+    border: 1px solid #555; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    margin-bottom: 15px; /* Space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Subtle shadow effect */
+    color: #fff; /* White text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.alumni-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Darker shadow on hover */
+}
+
+/* Optional: Add styling for each piece of information */
+.alumni-card .info-label {
+    font-weight: bold; /* Bold labels */
+    color: #ddd; /* Lighter color for labels */
+}
+
+.alumni-card .info-value {
+    color: #fff; /* White text for values */
+}

@@ -1,0 +1,73 @@
+/* Dark background for the entire page */
+body {
+    background-color: #222;
+    color: #fff; /* White text for contrast */
+}
+
+/* Container styling */
+.container1 {
+    padding: 20px;
+}
+
+/* Program section header styling */
+.program-section1 h2 {
+    color: #ff4c4c; /* Red color for headers */
+    margin-bottom: 10px;
+}
+
+/* Grid layout for department buttons */
+.button-grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+/* Additional styling for department buttons */
+.grid-button1 {
+    padding: 20px; /* Adjust padding as needed */
+    min-height: 120px; /* Minimum height for better text fitting */
+    background-color: #333; /* Dark background color */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px; /* Font size for department name */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: #fff; /* White text for better contrast */
+}
+
+/* Department name styling */
+.department-name1 {
+    font-size: 18px; /* Font size for department name */
+    margin-bottom: 5px; /* Space between department name and member count */
+    font-weight: bold; /* Bold text for department name */
+    color: #fff; /* White text */
+}
+
+/* Member count styling */
+.department-members1 {
+    font-size: 14px; /* Smaller font size for member count */
+    color: #ff4c4c; /* Red color for member count */
+}
+
+/* Hover effect for buttons */
+.grid-button1:hover {
+    background-color: #550000; /* Dark red background on hover */
+    transform: scale(1.05); /* Slightly increase button size */
+}
+
+/* Focus effect for accessibility */
+.grid-button1:focus {
+    outline: none;
+}
+
+/* Active effect for buttons */
+.grid-button1:active {
+    transform: scale(1.05); /* Slightly increase button size on click */
+    background-color: #770000; /* Brighter red background on click */
+}

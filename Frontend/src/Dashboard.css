@@ -1,0 +1,41 @@
+/* Carousel Container */
+.carousel {
+    width: 100%; /* Decrease the width of the carousel */
+    max-width: 10000px; /* Optional: Set a max-width for larger screens */
+    margin: auto; /* Center the carousel */
+    background-color: #000; /* Black background to match dark theme */
+    border: 3px solid #f00; /* Red border around the carousel */
+    border-radius: 10px; /* Optional: Round corners for the carousel */
+    overflow: hidden; /* Ensure no overflow or white spaces */
+  }
+  
+  /* Carousel Image */
+  .carousel-item img {
+    height: 70vh; /* Increase the height of images for more length */
+    object-fit: cover; /* Ensure images cover the container without distortion */
+    width: 100%; /* Ensure images fill the carousel width */
+  }
+  
+  /* Carousel Caption */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background to blend with dark theme */
+    color: #fff; /* White text for better contrast */
+    padding: 20px; /* Adjust padding */
+    border-radius: 5px;
+    text-align: center; /* Center-align text */
+  }
+  
+  .carousel-caption h3 {
+    color: #f00; /* Red text */
+    font-weight: bold; /* Make text stand out */
+  }
+  
+  .carousel-caption .btn-danger {
+    background-color: #f00; /* Red button */
+    border: none;
+    color: #fff; /* White text for the button */
+  }
+  
+  .carousel-caption .btn-danger:hover {
+    background-color: #d00; /* Darker red on hover */
+  }
